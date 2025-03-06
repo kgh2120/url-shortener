@@ -1,9 +1,6 @@
 package com.kk.urlshortener.domain.repository
 
-import com.kk.urlshortener.domain.entity.Achievement
-import com.kk.urlshortener.domain.entity.Experience
 import com.kk.urlshortener.domain.entity.HttpInterface
 import org.springframework.data.jpa.repository.JpaRepository
 
-interface HttpInterfaceRepository : JpaRepository<HttpInterface, Long> {
-}
+interface HttpInterfaceRepository : JpaRepository<HttpInterface, Long>

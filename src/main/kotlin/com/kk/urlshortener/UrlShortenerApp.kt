@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class UrlShortenerApp
 
 fun main(args: Array<String>) {
-	runApplication<UrlShortenerApp>(*args)
+    runApplication<UrlShortenerApp>(*args)
 }
