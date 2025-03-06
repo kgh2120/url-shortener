@@ -1,6 +1,6 @@
 spring:
   application:
-    name: kotlin-practice
+    name: url-shortener
   jpa:
     database: h2
     open-in-view: false

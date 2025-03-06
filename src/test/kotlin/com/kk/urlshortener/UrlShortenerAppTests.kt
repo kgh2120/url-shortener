@@ -1,10 +1,10 @@
-package com.kk.kotlinpractice
+package com.kk.urlshortener
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class KotlinPracticeApplicationTests {
+class UrlShortenerAppTests {
 
 	@Test
 	fun contextLoads() {

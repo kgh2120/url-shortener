@@ -1,11 +1,11 @@
-package com.kk.kotlinpractice
+package com.kk.urlshortener
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class KotlinPracticeApplication
+class UrlShortenerApp
 
 fun main(args: Array<String>) {
-	runApplication<KotlinPracticeApplication>(*args)
+	runApplication<UrlShortenerApp>(*args)
 }
