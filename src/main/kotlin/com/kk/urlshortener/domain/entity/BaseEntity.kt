@@ -3,4 +3,8 @@ package com.kk.urlshortener.domain.entity
 import jakarta.persistence.MappedSuperclass
 
 @MappedSuperclass
-abstract class BaseEntity
+class BaseEntity {
+
+    private var createdDate: Long? = null;
+    private var modifiedDate: Long? = null;
+}
