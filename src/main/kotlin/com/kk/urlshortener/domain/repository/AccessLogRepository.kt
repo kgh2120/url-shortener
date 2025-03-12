@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository
 
 interface AccessLogRepository:JpaRepository<AccessLog, Int> {
 
-    fun findAllByLinkOOrderByIdDesc(link: Link):List<AccessLog>
+    fun findAllByLinkOrder(link: Link):List<AccessLog>
 }
