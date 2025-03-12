@@ -11,4 +11,6 @@ interface LinkRepository:JpaRepository<Link,Int> {
     fun findAllLinkByUsers(users: Users) : List<Link>
 
     fun findLinkByShortenUrl(shortenUrl: String) : Optional<Link>
+
+    fun existsLinkByShortenUrl(shortenUrl: String) : Boolean
 }
