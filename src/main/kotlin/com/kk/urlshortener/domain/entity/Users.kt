@@ -26,4 +26,10 @@ class Users(
         link.associateWithUser(this)
     }
 
+    fun addLinks(links: List<Link>) {
+        for (link in links) {
+            this.addLink(link)
+        }
+    }
+
 }
