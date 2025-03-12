@@ -25,6 +25,9 @@ class Link(
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "link", cascade = [CascadeType.PERSIST])
     var accessLog: MutableList<AccessLog> = mutableListOf()
 
+    fun associateWithUser(user:Users){
+        this.users = user;
+    }
 
     fun addAccessLog(accessLog: AccessLog) {
         this.accessLog.add(accessLog)

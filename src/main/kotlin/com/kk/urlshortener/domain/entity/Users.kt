@@ -23,6 +23,7 @@ class Users(
 
     fun addLink(link: Link) {
         this.links.add(link)
+        link.associateWithUser(this)
     }
 
 }
